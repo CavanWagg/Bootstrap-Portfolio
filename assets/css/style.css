@@ -1,0 +1,27 @@
+body {
+  margin-top: 60px;
+}
+body > .container {
+  padding-top: 60px;
+}
+body #profile {
+  width: 200px;
+  height: 200px;
+}
+body .sidebar-navbar-fixed img,
+body #social img {
+  width: 64px;
+  height: 64px;
+}
+body #footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  margin: 20px 0;
+  background: #008080;
+}
+body #footer .footer-block {
+  text-align: center;
+  padding: 40px 0;
+}
