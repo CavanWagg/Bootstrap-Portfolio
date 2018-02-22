@@ -6,7 +6,6 @@ body > .container {
 }
 body #profile {
   width: 200px;
-  height: 200px;
 }
 body .sidebar-navbar-fixed img,
 body #social img {
@@ -24,4 +23,13 @@ body #footer {
 body #footer .footer-block {
   text-align: center;
   padding: 40px 0;
+}
+body .carousel .item {
+  min-height: 280px /* Prevents carousel from being distorted if for some reason image doesn't load */;
+}
+body .carousel .item img {
+  margin: 0 auto; /* Align slide image horizontally center */
+}
+body #port-carousel {
+  margin: 20px;
 }
