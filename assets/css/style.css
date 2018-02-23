@@ -25,19 +25,25 @@ body {
 .text-muted {
   text-align: center;
 }
-.item {
-  min-height: 280px /* Prevents carousel from being distorted if for some reason image doesn't load */;
+.carousel-caption {
+  background: #808080;
 }
-.item img {
-  margin: 0 auto; /* Align slide image horizontally center */
+.carousel img {
+  width: 50%;
+  margin: auto;
 }
-#port-carousel {
-  margin: 20px;
+.center-block {
+  float: none;
+}
+.col-md-12 {
+  width: 100%;
+}
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #008080;
 }
 html body {
   height: 100%;
   width: 100%;
-}
-.carousel-caption {
-  background: #808080;
 }
