@@ -1,35 +1,43 @@
 body {
   margin-top: 60px;
 }
-body > .container {
+#wrap  /* allows page content to push down footer */ {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px /* negative indent footer according to it's height */;
+  padding: 0 0 60px /* padding bottom according to footer height */;
+}
+.container {
   padding-top: 60px;
 }
-body #profile {
+#profile {
   width: 200px;
 }
-body .sidebar-navbar-fixed img,
-body #social img {
+.sidebar-navbar-fixed img,
+#social img {
   width: 64px;
   height: 64px;
 }
-body #footer {
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  height: 100px;
-  margin: 20px 0;
-  background: #008080;
+#footer {
+  height: 60px;
+  background-color: #008080;
 }
-body #footer .footer-block {
+.text-muted {
   text-align: center;
-  padding: 40px 0;
 }
-body .carousel .item {
+.item {
   min-height: 280px /* Prevents carousel from being distorted if for some reason image doesn't load */;
 }
-body .carousel .item img {
+.item img {
   margin: 0 auto; /* Align slide image horizontally center */
 }
-body #port-carousel {
+#port-carousel {
   margin: 20px;
+}
+html body {
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  background: #808080;
 }
