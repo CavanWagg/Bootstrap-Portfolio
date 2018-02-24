@@ -7,23 +7,23 @@ body
     padding 0 0 60px /* padding bottom according to footer height */
 .container 
         padding-top 60px
+.row
+    margin-bottom 60px
 #profile  
         width 200px
 .sidebar-navbar-fixed
 #social
     img
-        width 64px
-        height 64px      
+        width 100px 
 #footer
     height 60px
     background-color teal
 .text-muted
         text-align center
-    .item  /* Prevents carousel from being distorted if for some reason image doesn't load */
-         /* Align slide image horizontally center */
-    
 .carousel-caption
-    background gray
+    background rgb(204, 204, 192, 0.1)
+    width 50% !important
+    margin 0 5%
 .carousel img 
     width 50%
     margin auto
@@ -32,10 +32,35 @@ body
 .col-md-12
     width 100%
 hr  
-    max-width 50px
+    max-width 10%
     border-width 3px
     border-color teal
+.center-block.img-rounded
+    width 30%
+    border-radius 50%
+#social 
+    display flex 
+    justify-content center
+    a  
+        padding 20px
+.prof-pic
+    margin-bottom 20px
+    width 200px
+    border-radius 30px
+.contact-comment
+    font-size 36px
 
+:placeholder-shown
+    height 80px
+    font-size 30px
+::placeholder
+    font-size 30px
+input[type="text"] /* Styles for keeping font-size + height the same when user inputs type into form. */
+    font-size 30px 
+    height 80px
+textarea[type="text"] /* Styles for keeping font-size + height the same when user inputs type into form. */
+    font-size 30px 
+    height 80px
 html
     body
         height 100%

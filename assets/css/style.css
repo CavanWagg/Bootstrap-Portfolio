@@ -10,13 +10,15 @@ body {
 .container {
   padding-top: 60px;
 }
+.row {
+  margin-bottom: 60px;
+}
 #profile {
   width: 200px;
 }
 .sidebar-navbar-fixed img,
 #social img {
-  width: 64px;
-  height: 64px;
+  width: 100px;
 }
 #footer {
   height: 60px;
@@ -26,7 +28,9 @@ body {
   text-align: center;
 }
 .carousel-caption {
-  background: #808080;
+  background: #ccccc0;
+  width: 50% !important;
+  margin: 0 5%;
 }
 .carousel img {
   width: 50%;
@@ -39,9 +43,43 @@ body {
   width: 100%;
 }
 hr {
-  max-width: 50px;
+  max-width: 10%;
   border-width: 3px;
   border-color: #008080;
+}
+.center-block.img-rounded {
+  width: 30%;
+  border-radius: 50%;
+}
+#social {
+  display: flex;
+  justify-content: center;
+}
+#social a {
+  padding: 20px;
+}
+.prof-pic {
+  margin-bottom: 20px;
+  width: 200px;
+  border-radius: 30px;
+}
+.contact-comment {
+  font-size: 36px;
+}
+:placeholder-shown {
+  height: 80px;
+  font-size: 30px;
+}
+::placeholder {
+  font-size: 30px;
+}
+input[type="text"] {
+  font-size: 30px;
+  height: 80px;
+}
+textarea[type="text"] {
+  font-size: 30px;
+  height: 80px;
 }
 html body {
   height: 100%;
