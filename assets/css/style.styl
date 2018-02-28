@@ -1,6 +1,22 @@
+/*Variables */
+$primary = #009688
+$d-primary = #00796b
+$l-primary = rgb(178, 223, 219)
+$text-primary = #212121
+$accent = #00bcd4
+$text-secondary = #757575
+
+
+
 body   
     margin-top 60px
-    background #ADE6E4
+    background $d-primary 
+h1, 
+h2, 
+h3, 
+p
+    color $text-primary
+
 #wrap  /* allows page content to push down footer */
     min-height 100%
     height auto
@@ -9,25 +25,27 @@ body
 .container 
         padding-top 60px
 .jumbotron
-    background #75CAC7
+    background $l-primary
 h2  
     text-align: center
+h3 
+    padding 10px 0px;
 .row
     margin-bottom 60px
 #profile  
         width 200px
 .sidebar-navbar-fixed
 #social
-    background #138581
+    background $l-primary
     img
         width 100px 
 #footer
     height 60px
-    background-color #4aaaa5
+    background-color $l-primary
 .text-muted
         text-align center
 .carousel-caption
-    background rgb(204, 204, 192, 0.1)
+    background rgb(178, 223, 219, 0.1)
     width 50% !important
     margin auto
 .carousel img 
@@ -40,7 +58,7 @@ h2
 hr  
     max-width 10%
     border-width 3px
-    border-color teal
+    border-color $accent
 .center-block.img-rounded
     width 30%
     border-radius 50%
@@ -49,6 +67,8 @@ hr
     justify-content center
     a  
         padding 20px
+.portfolio-row
+    background $primary
 .prof-pic
     margin-bottom 20px
     width 200px
