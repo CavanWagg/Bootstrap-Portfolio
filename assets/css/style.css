@@ -49,12 +49,13 @@ h3 {
   text-align: center;
 }
 .carousel-caption {
-  background: #b2dfdb;
-  width: 50% !important;
-  margin: auto;
+  position: relative;
+  left: auto;
+  right: auto;
 }
 .carousel img {
-  width: 50%;
+  max-width: 50%;
+  max-height: 200px;
   margin: auto;
 }
 .center-block {
